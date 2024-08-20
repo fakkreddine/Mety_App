@@ -1,0 +1,16 @@
+@import "../index.css";
+
+
+
+
+
+.body{
+    background-color: var(--main);
+    border-radius: 5px;
+   
+    
+}
+.title{
+   background-color: black;
+   font-size: 40px;
+}

@@ -1,0 +1,4 @@
+.screen{
+    position: relative;
+    height: calc(100vh - 80px);
+}

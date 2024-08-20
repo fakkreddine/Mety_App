@@ -1,0 +1,34 @@
+.part{
+    padding-left: 25px;
+    overflow-y: auto;
+    height: 87%;
+}
+.part > div{
+    margin-bottom: 20px;
+}
+.part h3{
+    margin-bottom: 20px;
+}
+.av{
+    width: 50px;
+    height: 50px; 
+    object-fit: contain;
+}
+
+
+
+
+
+#avatar_cont {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+ 
+}
+#name {
+ 
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+}

@@ -1,0 +1,62 @@
+@media (max-width: 640px) {
+
+    .footer{
+        margin-bottom: 50px;
+    }
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    position: absolute  ;
+    bottom: 0;
+    display: flex ;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.--resize{
+    width: calc(100% - 450px) !important;
+}
+.user{
+    width:20vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.user  p{
+   height: 2vh;
+   font-size:2vh ;
+   line-height: 24px;
+   color: #ffffff;
+}
+.control{
+    width: 60vw;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 6vw;
+    
+}
+.cont{
+    width: 51px;
+    height: 48px;
+    object-fit: contain;
+}
+.main-cont{
+    width:8vw;
+    height: 8vh;
+    object-fit: contain;
+}
+.chat__part{
+    width: 8vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ave{
+    width: 5vw;
+    height: 5vh;
+    object-fit: contain;
+}

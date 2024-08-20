@@ -1,0 +1,56 @@
+.vedio{
+    width: 30vw;
+    height: 40vh;
+    
+    background-image: url("../img/logo.png");   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 108px;
+    
+    border-radius:10px;
+    object-fit: cover;
+    border:5px solid #d5b119;
+}
+@media screen and (max-width: 576px) {
+    .vedio {
+     
+        width: 80vw;
+        height: 30vh;
+        
+        background-image: url("../img/logo.png");   
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 108px;
+        
+        border-radius:10px;
+        object-fit: cover;
+        border:5px solid #d5b119;
+    }
+  }
+
+
+.--vedioFocus{
+    width: 70% !important;
+    height: 490px !important;
+    margin-left:10% !important;
+    margin-right:10% !important;
+}
+.--notfocus{
+    width: 400px !important;
+    height: 170px  !important;
+}
+.--hide{
+    display: none !important;
+}
+.--show{
+    display: block !important;
+}
+
+
+.focus{
+    width: 80%;
+    height: 70%;
+   
+    justify-content: center;
+    border-radius: 10px;
+}

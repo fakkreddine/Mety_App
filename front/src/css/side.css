@@ -1,0 +1,57 @@
+@import "../index.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@media (max-width: 640px) {
+.side{
+     
+     height: 80vh !important;
+     width: 80vw !important;
+     z-index: 1;
+
+}
+
+}
+.side{
+    background-color:#ffffff;
+    height: 86vh;
+    width: 450px;
+    margin-top: 10px;
+    border-radius:5px ;
+    position: absolute;
+    right: 0; 
+    top:0; 
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.header button{
+    width:200px ;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
+}
+
+.--focus{
+    color:black !important;
+    background-color: #494a4b5f;
+    border-radius:5px ;
+}
+.tab{
+    @apply  text-gray-600;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.b{
+    width: 30px !important;
+}

@@ -1,0 +1,26 @@
+.chat{
+    width: 100%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+    
+}
+.message__input{
+    position: relative;
+  
+}
+.sent{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+margin-top:10px;
+margin-right: 10px;
+}
+.chat__msg{
+    overflow-y: auto;
+}

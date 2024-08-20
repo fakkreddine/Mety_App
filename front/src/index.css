@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+:root{
+    --back: #212121;
+    --main:#F3F3F3;  
+    --second:#d5b119;
+    --font: 'Montserrat ExtraBold Alt1'
+   
+
+}
+

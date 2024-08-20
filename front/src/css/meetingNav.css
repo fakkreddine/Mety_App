@@ -1,0 +1,120 @@
+@import "../index.css";
+@media (max-width: 640px) {
+  *{
+    font-size: 15px !important;
+  }
+  .tabs{
+    width: 55% !important;
+    display: flex;
+    align-items: center;
+  }
+  .btn{
+    font-size: 15px !important;
+    width:50% !important;
+    height:40px !important ;
+   
+
+  }
+  .record{
+    width: 90px  !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+.meetingnav{
+  display: flex;
+  justify-content: space-between;
+    background-color: var(--back);
+   
+    height:80px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    padding-top: 20px   ;
+    padding-left:20px ;
+    padding-right: 20px;
+    
+    align-items: center;
+    gap: 5px;
+}
+ 
+
+
+
+.btn {
+    color: var(--main);
+    
+    text-align: center;
+    font-family:  Poppins, arial, helvetica, "Segoe UI", roboto, ubuntu, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+    border-radius:5px ;
+    width: 203px;
+    height: 45px;
+    
+}
+.btn.second{
+    background-color: var(--second);
+}
+.room{
+    color:#ffffff ;
+}
+.--align{
+    display: flex;
+    justify-content: start;
+}
+.--h1{
+    font-size: 20px;
+}
+.record{
+   background-color: #ffffff;
+   width: 150px;
+   
+   border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.button {
+   
+    width: 40px;
+    height: 40px;
+    border: 5px solid #d32e2e;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .inner {
+    background-color: #d32e2e;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    transform: scale(0.95);
+  }
+  
+  .button.active .inner {
+    transform: scale(0.5);
+    border-radius: 12%;
+  }
